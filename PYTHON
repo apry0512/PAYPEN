@@ -1,0 +1,25 @@
+from pprint import pprint
+
+def make_request(method, path, body):
+    # Your implementation of the make_request function
+    # This function should send a request to the Rapyd API with the provided method, path, and body
+    # and return the response
+    pass
+
+data = {
+    "amount": "50.00",
+    "currency": "EUR",
+    "payment_method": {
+        "type": "gb_visa_card",
+        "fields": {
+            "number": "4111111111111111",
+            "expiration_month": "12",
+            "expiration_year": "27",
+            "cvv": "567",
+            "name": "John Doe"
+        }
+    }
+}
+
+response = make_request(method='post', path='/v1/payments', body=data)
+pprint(response)
