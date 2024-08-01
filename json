@@ -1,0 +1,64 @@
+{
+    "status": {
+        "error_code": "",
+        "status": "SUCCESS",
+        "message": "",
+        "response_code": "",
+        "operation_id": "03dd96b5-1546-47c5-9ea8-26ea7f9392e6"
+    },
+    "data": {
+        "id": "payment_9899b33317123dc59427fb0a4aa3f4f7",
+        "amount": 50,
+        "original_amount": 50,
+        "is_partial": false,
+        "currency_code": "GBP",
+        "country_code": "GB",
+        "status": "CLO",
+        "description": "",
+        "merchant_reference_id": "",
+        "customer_token": "cus_183225bd57e4bc4967bf8b4ddc9c6144",
+        "payment_method": "card_5a451b226ebcee4511fb22b199532ba2",
+        "payment_method_data": {
+            "id": "card_5a451b226ebcee4511fb22b199532ba2",
+            "type": "gb_visa_card",
+            "category": "card",
+            "metadata": {
+                "merchant_defined": true
+            },
+            "image": "",
+            "webhook_url": "",
+            "supporting_documentation": "",
+            "next_action": "not_applicable",
+            "name": "John Doe",
+            "last4": "1111",
+            "acs_check": "unchecked",
+            "cvv_check": "unchecked",
+            "bin_details": {
+                "type": null,
+                "brand": null,
+                "level": null,
+                "issuer": null,
+                "country": null,
+                "bin_number": "411111"
+            },
+            "expiration_year": "27",
+            "expiration_month": "12",
+            "fingerprint_token": "ocfp_2a694038316f52122bbbb3ae926cfda9"
+        },
+        "auth_code": null,
+        "expiration": 1692142435,
+        "captured": true,
+        "refunded": false,
+        "refunded_amount": 0,
+        "receipt_email": "",
+        "redirect_url": "",
+        "complete_payment_url": "",
+        "error_payment_url": "",
+        "receipt_number": "",
+        "flow_type": "",
+        "address": null,
+        "statement_descriptor": "Test Business",
+        "transaction_id": "",
+        "created_at": 1691537634
+    }
+}
